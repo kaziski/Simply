@@ -4,7 +4,7 @@
   <h3>Create a new user</h3>
 <% end  %>
 
-<%= form_for User.new, url: new_user_path do |f| %>
+<%= form_for User.new, url: create_new_user_path do |f| %>
 
   <%= render "devise/shared/error_messages", resource: resource %>
 
